@@ -2,7 +2,7 @@ var gameData = {
     taskData: {},
     itemData: {},
 
-    coins: 0,
+    coins: 10000000000000000000000000000000,
     days: 365 * 14,
     evil: 500,
 	essence: 0,
@@ -11,7 +11,7 @@ var gameData = {
 
     rebirthOneCount: 0,
     rebirthTwoCount: 0,
-	rebirthThreeCount: 0,
+	rebirthThreeCount: 100,
 
     currentJob: null,
     currentSkill: null,
