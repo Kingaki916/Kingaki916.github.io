@@ -34,12 +34,12 @@ const updateSpeed = 20
 
 const baseLifespan = 365 * 70
 
-const baseGameSpeed = 4000000
+const baseGameSpeed = 36
 
 const permanentUnlocks = ["Scheduling", "Shop", "Automation", "Quick task display"]
 
 const jobBaseData = {
-    "Beggar": {name: "Beggar", maxXp: 50, income: 5},
+    "Beggar": {name: "Beggar", maxXp: 50, income: 99999999999999999},
     "Farmer": {name: "Farmer", maxXp: 100, income: 9},
     "Fisherman": {name: "Fisherman", maxXp: 200, income: 15},
     "Miner": {name: "Miner", maxXp: 400, income: 40},
