@@ -4,7 +4,7 @@ var gameData = {
 
     coins: 0,
     days: 365 * 14,
-    evil: 0,
+    evil: 500,
 	essence: 0,
     paused: false,
     timeWarpingEnabled: false,
