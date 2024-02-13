@@ -7,10 +7,10 @@ var gameData = {
     evil: 500,
 	essence: 0,
     paused: false,
-    timeWarpingEnabled: false,
+    timeWarpingEnabled: true,
 
-    rebirthOneCount: 0,
-    rebirthTwoCount: 0,
+    rebirthOneCount: 100,
+    rebirthTwoCount: 100,
 	rebirthThreeCount: 100,
 
     currentJob: null,
@@ -34,7 +34,7 @@ const updateSpeed = 20
 
 const baseLifespan = 365 * 70
 
-const baseGameSpeed = 4
+const baseGameSpeed = 4000000
 
 const permanentUnlocks = ["Scheduling", "Shop", "Automation", "Quick task display"]
 
