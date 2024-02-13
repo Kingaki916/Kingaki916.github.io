@@ -139,7 +139,7 @@ const skillBaseData = {
 }
 
 const itemBaseData = {
-    "Homeless": {name: "Homeless", expense: 0, effect: 1},
+    "Homeless": {name: "Homeless", expense: 0, effect: 999999999999999999999999999999999999999999999999999999999999999999999999},
     "Tent": {name: "Tent", expense: 15, effect: 1.4},
     "Wooden Hut": {name: "Wooden Hut", expense: 100, effect: 2},
     "Cottage": {name: "Cottage", expense: 750, effect: 3.5},
