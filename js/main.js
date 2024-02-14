@@ -4,7 +4,7 @@ var gameData = {
 
     coins: 10000000000000000000000000000000,
     days: 365 * 14,
-    evil: 500,
+    evil: 5000000000000,
 	essence: 0,
     paused: false,
     timeWarpingEnabled: true,
@@ -34,7 +34,7 @@ const updateSpeed = 20
 
 const baseLifespan = 365 * 70
 
-const baseGameSpeed = 4000000
+const baseGameSpeed = 40
 
 const permanentUnlocks = ["Scheduling", "Shop", "Automation", "Quick task display"]
 
