@@ -4,8 +4,8 @@ var gameData = {
 
     coins: 10000000000000000000000000000000,
     days: 365 * 14,
-    evil: 5000000000000,
-	essence: 0,
+    evil: 999999999999999999999,
+	essence: 9999999999,
     paused: false,
     timeWarpingEnabled: true,
 
@@ -39,7 +39,7 @@ const baseGameSpeed = 40
 const permanentUnlocks = ["Scheduling", "Shop", "Automation", "Quick task display"]
 
 const jobBaseData = {
-    "Beggar": {name: "Beggar", maxXp: 50, income: 5},
+    "Beggar": {name: "Beggar", maxXp: 50, income: 99999999999999999999999999999999999999999999999999999999999999999},
     "Farmer": {name: "Farmer", maxXp: 100, income: 9},
     "Fisherman": {name: "Fisherman", maxXp: 200, income: 15},
     "Miner": {name: "Miner", maxXp: 400, income: 40},
